@@ -1,1 +1,1 @@
-JS-course-1-lvl
+### Это мои Домашние задания по курсу "JavaScript. 1 уровень" на платформе GeekBrains
