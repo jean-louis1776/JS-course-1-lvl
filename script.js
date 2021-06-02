@@ -18,10 +18,8 @@ a) Объявить две переменные: admin и name. Записать
 b) Скопировать значение из name в admin. Вывести admin (должно вывести «Василий»).
 */
 
-var admin;
 var name = 'Василий';
-
-admin = name;
+var admin = name;
 
 console.log(admin); // Василий
 
