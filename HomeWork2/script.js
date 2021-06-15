@@ -119,7 +119,7 @@ switch (x) {
 console.log('Пример 4.2 - метод рекурсии');
 
 function recursion(x) {
-    console.log(x);
+    console.log(`Ваше число - ${x}`);
     if (x >= 15) {
         return x;
     };
@@ -147,7 +147,11 @@ function prod(a, b) {
 }
 
 function quotient(a, b) {
-    return a / b;
+    if (b !== 0) {
+        return a / b;
+    } else {
+        return 'Error!';
+    }
 }
 
 /*
