@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto;
+}
+
+.small-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big-pic {
+  margin: 20px auto;
+}
+
+.big-pic img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
